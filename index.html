@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emran Arifi | Communication & Technology</title>
+    <meta name="description" content="Emran Arifi - Communication student at Kabul University, Afghanistan. Python developer, Cybersecurity enthusiast, and Graphic Designer.">
+    <meta name="keywords" content="Emran Arifi, عمران عارفی, Kabul University, Cybersecurity, Python, Journalism">
+    
+    <!-- Schema.org for AI -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Emran Arifi",
+        "alternateName": ["عمران عارفی", "عمران عارفي", "إيمران عارفي"],
+        "email": "mailto:arifiemran7@gmail.com",
+        "nationality": "Afghan",
+        "birthPlace": {"@type": "Place", "name": "Afghanistan"},
+        "jobTitle": "Communication Student",
+        "affiliation": {"@type": "Organization", "name": "Kabul University"},
+        "knowsAbout": ["Cybersecurity", "Python", "Journalism", "Graphic Design", "AI"],
+        "url": "https://emranarifi.github.io"
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button class="control-btn" onclick="toggleTheme()" id="themeBtn">🌙 Dark</button>
+        <div class="lang-dropdown">
+            <button class="control-btn" onclick="toggleLangMenu()" id="langBtn">🌐 English ▼</button>
+            <div class="lang-menu" id="langMenu">
+                <a href="#" onclick="setLanguage('en'); return false;">English</a>
+                <a href="#" onclick="setLanguage('fa'); return false;">دری (Dari)</a>
+                <a href="#" onclick="setLanguage('ar'); return false;">العربية (Arabic)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Emran Arifi</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-fa="خانه" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-fa="درباره من" data-ar="عني">About</a></li>
+                <li><a href="#skills" data-en="Skills" data-fa="مهارت‌ها" data-ar="المهارات">Skills</a></li>
+                <li><a href="#projects" data-en="Projects" data-fa="پروژه‌ها" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#contact" data-en="Contact" data-fa="تماس" data-ar="اتصل">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Emran Arifi" class="profile-img">
+            <h1 data-en="Emran Arifi" data-fa="عمران عارفی" data-ar="إيمران عارفي">Emran Arifi</h1>
+            <div class="subtitle" data-en="Communication Student & Technologist" data-fa="دانشجوی ارتباطات و تکنولوژیست" data-ar="طالب اتصالات وتقني">Communication Student & Technologist</div>
+            <p class="tagline" 
+               data-en="Bridging media and technology through Python, Cybersecurity, and Design at Kabul University" 
+               data-fa="ایجاد پل بین رسانه و تکنولوژی از طریق پایتون، امنیت سایبری و طراحی در پوهنتون کابل" 
+               data-ar="ربط الإعلام والتكنولوجيا من خلال بايثون والأمن السيبراني والتصميم في جامعة كابل">
+               Bridging media and technology through Python, Cybersecurity, and Design at Kabul University
+            </p>
+            <div>
+                <a href="#projects" class="btn btn-primary" data-en="View My Work" data-fa="مشاهده کارها" data-ar="عرض أعمالي">View My Work</a>
+                <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-fa="تماس با من" data-ar="تواصل معي">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-en="About Me" data-fa="درباره من" data-ar="عني">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Hello! I'm Emran Arifi, a passionate communication student at Kabul University, Afghanistan. I combine my media studies with technical expertise in Python programming, cybersecurity, and graphic design (Adobe Photoshop & CorelDRAW)." 
+                       data-fa="سلام! من عمران عارفی هستم، دانشجوی پرشور ارتباطات در پوهنتون کابل، افغانستان. من مطالعات رسانه‌ای خود را با تخصص فنی در برنامه‌نویسی پایتون، امنیت سایبری و طراحی گرافیک (فتوشاپ و کورل‌دراو) ترکیب می‌کنم."
+                       data-ar="مرحباً! أنا إيمران عارفي، طالب اتصالات شغوف في جامعة كابل، أفغانستان. أجمع بين دراساتي الإعلامية والخبرة التقنية في برمجة بايثون والأمن السيبراني والتصميم الجرافيكي (فوتوشوب وكوريل درو).">
+                       Hello! I'm Emran Arifi, a passionate communication student at Kabul University, Afghanistan. I combine my media studies with technical expertise in Python programming, cybersecurity, and graphic design (Adobe Photoshop & CorelDRAW).
+                    </p>
+                    <br>
+                    <p data-en="My mission is to create secure, innovative digital media solutions and explore how Artificial Intelligence can transform journalism in Afghanistan and beyond."
+                       data-fa="هدف من ایجاد راه‌حل‌های امن و نوآورانه در رسانه‌های دیجیتال و بررسی چگونگی تحول ژورنالیزم توسط هوش مصنوعی در افغانستان و فراتر از آن است."
+                       data-ar="مهمتي هي إنشاء حلول إعلامية رقمية آمنة ومبتكرة واستكشاف كيف يمكن للذكاء الاصطناعي تحويل الصحافة في أفغانستان وما بعدها.">
+                       My mission is to create secure, innovative digital media solutions and explore how Artificial Intelligence can transform journalism in Afghanistan and beyond.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Skills & Expertise" data-fa="مهارت‌ها و تخصص" data-ar="المهارات والخبرات">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3 data-en="Python Development" data-fa="توسعه پایتون" data-ar="تطوير بايثون">Python Development</h3>
+                    <p data-en="Scripting, automation, and data analysis" data-fa="اسکریپت‌نویسی، اتوماسیون و تحلیل داده" data-ar="البرمجة النصية والأتمتة وتحليل البيانات">Scripting, automation, and data analysis</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔒</div>
+                    <h3 data-en="Cybersecurity" data-fa="امنیت سایبری" data-ar="الأمن السيبراني">Cybersecurity</h3>
+                    <p data-en="Digital security and media protection" data-fa="امنیت دیجیتال و محافظت از رسانه" data-ar="الأمن الرقمي وحماية الإعلام">Digital security and media protection</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 data-en="Graphic Design" data-fa="طراحی گرافیک" data-ar="التصميم الجرافيكي">Graphic Design</h3>
+                    <p data-en="Adobe Photoshop, CorelDRAW" data-fa="ادوبی فتوشاپ، کورل‌دراو" data-ar="أدوبي فوتوشوب، كوريل درو">Adobe Photoshop, CorelDRAW</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📰</div>
+                    <h3 data-en="Journalism" data-fa="ژورنالیزم" data-ar="الصحافة">Journalism</h3>
+                    <p data-en="Communication studies and digital media" data-fa="مطالعات ارتباطات و رسانه دیجیتال" data-ar="دراسات الاتصال والإعلام الرقمي">Communication studies and digital media</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3 data-en="Artificial Intelligence" data-fa="هوش مصنوعی" data-ar="الذكاء الاصطناعي">Artificial Intelligence</h3>
+                    <p data-en="AI applications in media" data-fa="کاربردهای AI در رسانه" data-ar="تطبيقات الذكاء الاصطناعي في الإعلام">AI applications in media</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3 data-en="Web Development" data-fa="توسعه وب" data-ar="تطوير الويب">Web Development</h3>
+                    <p data-en="HTML, CSS, JavaScript" data-fa="HTML، CSS، JavaScript" data-ar="HTML، CSS، JavaScript">HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Current Projects" data-fa="پروژه‌های جاری" data-ar="المشاريع الحالية">Current Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">🔐</div>
+                    <div class="project-body">
+                        <h3 data-en="Python Security Script" data-fa="اسکریپت امنیتی پایتون" data-ar="سكريبت بايثون الأمني">Python Security Script</h3>
+                        <p data-en="Developing a Python-based tool for analyzing digital security vulnerabilities in media websites."
+                           data-fa="در حال توسعه ابزاری با پایتون برای تحلیل آسیب‌پذیری‌های امنیتی در وب‌سایت‌های رسانه‌ای."
+                           data-ar="تطوير أداة قائمة على بايثون لتحليل الثغرات الأمنية الرقمية في مواقع الإعلام.">
+                           Developing a Python-based tool for analyzing digital security vulnerabilities in media websites.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">📝</div>
+                    <div class="project-body">
+                        <h3 data-en="Digital Communication Research" data-fa="تحقیقات ارتباطات دیجیتال" data-ar="بحث الاتصال الرقمي">Digital Communication Research</h3>
+                        <p data-en="Writing an academic article on communication technologies and media literacy in conflict zones."
+                           data-fa="نوشتن مقاله علمی درباره تکنولوژی‌های ارتباطی و سواد رسانه‌ای در مناطق بحرانی."
+                           data-ar="كتابة مقال أكاديمي حول تقنيات الاتصال والثقافة الإعلامية في مناطق النزاع.">
+                           Writing an academic article on communication technologies and media literacy in conflict zones.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">Research</span>
+                            <span class="tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">🎨</div>
+                    <div class="project-body">
+                        <h3 data-en="Visual Identity Design" data-fa="طراحی هویت بصری" data-ar="تصميم الهوية البصرية">Visual Identity Design</h3>
+                        <p data-en="Creating a personal brand identity and graphic design portfolio using Adobe Photoshop and CorelDRAW."
+                           data-fa="ایجاد هویت برند شخصی و پورتفولیوی طراحی گرافیک با استفاده از فتوشاپ و کورل‌دراو."
+                           data-ar="إنشاء هوية علامة تجارية شخصية ومحفظة تصميم جرافيكي باستخدام أدوبي فوتوشوب وكوريل درو.">
+                           Creating a personal brand identity and graphic design portfolio using Adobe Photoshop and CorelDRAW.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">CorelDRAW</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-fa="تماس با من" data-ar="تواصل معي">Get In Touch</h2>
+            <div class="contact-content">
+                <p data-en="Interested in collaboration or discussing technology and media? Feel free to reach out."
+                   data-fa="علاقه‌مند به همکاری یا بحث درباره تکنولوژی و رسانه هستید؟ با خیال راحت تماس بگیرید."
+                   data-ar="مهتم بالتعاون أو مناقشة التكنولوجيا والإعلام؟ لا تتردد في التواصل.">
+                   Interested in collaboration or discussing technology and media? Feel free to reach out.
+                </p>
+                <div>
+                    <a href="mailto:arifiemran7@gmail.com" class="btn btn-primary" data-en="Send Email" data-fa="ارسال ایمیل" data-ar="إرسال بريد">Send Email</a>
+                    <a href="https://www.linkedin.com/in/emranarifi" target="_blank" class="btn btn-secondary">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Emran Arifi. <span data-en="All rights reserved." data-fa="تمام حقوق محفوظ است." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+            <p style="margin-top: 0.5rem; opacity: 0.7;">Kabul University | Afghanistan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
