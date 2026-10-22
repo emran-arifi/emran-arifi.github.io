@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emran-arifi.github.io/sitemap.xml

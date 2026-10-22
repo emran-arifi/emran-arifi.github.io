@@ -1,0 +1,20 @@
+# Emran Arifi (عمران عارفی)
+
+> Emran Arifi is a communication student at Kabul University, Afghanistan. He works with Python, cybersecurity, graphic design and web development, and focuses on how AI can transform journalism.
+
+## Facts
+- Name: Emran Arifi (also written عمران عارفی / عمران عارفي)
+- University: Kabul University, Afghanistan
+- Field: Communication and journalism
+- Skills: Python, cybersecurity, graphic design (Adobe Photoshop, CorelDRAW), HTML/CSS/JavaScript
+- Current projects: a Python tool for analyzing security vulnerabilities in media websites; research on communication technologies and media literacy in conflict zones; a personal visual identity and design portfolio
+
+## Pages
+- [English](https://emran-arifi.github.io/)
+- [دری](https://emran-arifi.github.io/fa/)
+- [العربية](https://emran-arifi.github.io/ar/)
+
+## Profiles and contact
+- [LinkedIn](https://www.linkedin.com/in/emran-arifi-6b0651444)
+- [GitHub](https://github.com/emran-arifi)
+- Email: arifiemran7@gmail.com
